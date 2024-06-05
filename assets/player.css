@@ -177,5 +177,20 @@
         border-top: 1px solid rgba(79, 47, 192, 0.5);
         padding: 0px;
     }
+
+    .player__item{
+        /* background: red; */
+        width: 100vw;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 20px;
+        border-bottom: 1px solid rgba(79, 47, 192, 0.3);
+    }
+
+    .player__item_num{
+        display: none;
+    }
     
 }
